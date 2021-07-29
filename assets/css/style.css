@@ -1,52 +1,61 @@
+/* Universal Selector */
 * {
+    /* Sets the padding and margin for the base content on page */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Element Selectors */
 body {
+    /* Sets the background color of the website */
     background-color: #d9dcd6;
 }
 
 a {
+    /* Sets the hyperlink colors and how the text should look */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /* Sets the default font size on all paragraph tags */
     font-size: 16px;
 }
 
 h1 {
+    /* Sets how the website logo will look as it is in the h1 tag*/
     display: inline-block;
     font-size: 48px;
 }
 
 h2 {
+    /* Sets how much spacing and what font size the h2 tag (firm services titles) will need */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 h3 {
+    /* Sets how much spacing and what font size the h3 tag (firm benefits) will need  */
     margin-bottom: 10px;
     text-align: center;  
 }
 
-h4 {
+h4 { 
+    /* Sets the font size for the h4 tag */
     font-size: 20px;
 }
-.header {
+
+header {
+    /* Sets the header content inside spacing as well as the background color, font type and color */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
- .seo {
-    color: #d9dcd6;
-}
-
-.header div {
+header nav{
+    /* Sets the navigation bar link's spacing and moves them to the right as well as changing the fornt type and size */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -54,37 +63,14 @@ h4 {
     font-size: 20px;
 }
 
-.header div ul li {
+nav ul li {
+    /* Sets how the navigation bar links will be placed next to each other */
     display: inline-block;
     margin-left: 25px;
 }
 
-.meeting-image {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+aside {
+    /* Sets the firm benefits section position,font type, and background color */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,18 +81,38 @@ h4 {
     background-color: #2589bd; 
 }
 
-.benefit-point {
-    margin-bottom: 32px;
-    color: #ffffff;
+footer {
+    /* Sets the footer spacing, font type and how it will align */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.benefit-point img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+ .seo {
+     /* Sets part of the logo color */
+    color: #d9dcd6;
+}
+
+.meeting-image {
+    /* Sets the size and position of the background image */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    /* Sets the section content positioning display and margin */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .firm-services {
+    /* Sets each firm services class position, color of the element, as well as font type and color */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,13 +122,34 @@ h4 {
 }
 
 .firm-services img {
+    /* Sets the firm services class image max height*/
     max-height: 200px;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.float-left {
+    /* Sets the firm service position and margin to the right */
+    float: left;
+    margin-right: 25px;
 }
+
+.float-right {
+    /* Sets the firm service position and margin to the left */
+    float: right;
+    margin-left: 25px;
+}
+
+.benefit-point {
+    /* Sets the benefit-point class bottom margin and set the text color */
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-point img {
+    /* Sets the image position in the benefit-point classes */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
 

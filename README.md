@@ -1,18 +1,48 @@
-# Horiseon
-Horiseon Web Site
+# Horiseon Web Site
 
-Changed the code on the content section to fix link for the Search Enginge Optimization.
+Link: https://edgaro93.github.io/Horiseon/
 
-Changed the website title.
+## Screenshot
 
-Changed the div tag to section tag in line 27. Also, updated the class name to meeting image.
+![plot](assets/images/Screenshot.png)
 
-Updated footer heading to h4 and changed div to section.
+## index.html Changes
+* Changed the code on the content section to fix link for the Search Enginge Optimization in the index.html
 
-Combined the h3 selectors to get rid of the classees.
+* Changed the div class header into a header tag.
 
-Got rid of header div ul as it had no function.
+* Changed the website title.
 
-Cleaned up the seo class by getting rid of the h1.
+* Changed all div tags to section tag. Also, updated the class name to meeting image.
 
-Consolidated the benefit classes by combining the various benefit classes to create benefit-point.
+* Changed the benefits section to an aside tag.
+
+* Updated footer heading to h4 and changed the div to a footer tag.
+
+
+## style.css Changes
+* Combined the h3 selectors to get rid of the classes.
+
+* Got rid of header div ul as it had no function.
+
+* Cleaned up the seo class by getting rid of the h1.
+
+* Consolidated the benefit classes by combining the various benefit classes to create benefit-point.
+
+* Consolidated the content classes to create firm-services.
+
+* Consolidated the h2 classes.
+
+* Moved around the CSS selectors.
+
+* Created a h4 selector and moved it up.
+
+* Created a footter selector and moved it up.
+
+
+## Both File changes
+* Inserted Notes in the HTML and CSS.
+
+* Changed positioning.
+
+* Updated selectors to match name changes. 
