@@ -6,6 +6,8 @@ Link: https://edgaro93.github.io/Horiseon/
 
 ![plot](assets/images/Screenshot.png)
 
+# Below are the changes done to the website to increase accessibility.
+
 ## index.html Changes
 * Changed the code on the content section to fix link for the Search Enginge Optimization in the index.html
 
